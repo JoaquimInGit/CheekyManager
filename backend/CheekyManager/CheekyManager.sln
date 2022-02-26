@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheekyManager.Domain", "CheekyManager.Domain\CheekyManager.Domain.csproj", "{8FBF2CE9-3C37-439E-A4BD-4057E8D28217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheekyManager.Data", "CheekyManager.Domain\CheekyManager.Data.csproj", "{8FBF2CE9-3C37-439E-A4BD-4057E8D28217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheekyManager.Data", "CheekyManager.Data\CheekyManager.Data.csproj", "{B1344714-3EAB-4832-BBE9-DA73ECE1912B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheekyManager.DataAccess", "CheekyManager.Data\CheekyManager.DataAccess.csproj", "{B1344714-3EAB-4832-BBE9-DA73ECE1912B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheekyManager.Business", "CheekyManager.Business\CheekyManager.Business.csproj", "{2DE78A7A-5261-410B-BFCB-F0F88DB2D32B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheekyManager.Business", "CheekyManager.Business\CheekyManager.Business.csproj", "{2DE78A7A-5261-410B-BFCB-F0F88DB2D32B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheekyManager.Api", "CheekyManager.Api\CheekyManager.Api.csproj", "{CD5AF8DA-AE5C-47A4-8C48-7F9D9003F8ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheekyManager.Api", "CheekyManager.Api\CheekyManager.Api.csproj", "{CD5AF8DA-AE5C-47A4-8C48-7F9D9003F8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheekyManager.Terminal", "CheekyManager.Terminal\CheekyManager.Terminal.csproj", "{A6F8B673-007D-4AFA-8FDD-1B197CDC0E90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CD5AF8DA-AE5C-47A4-8C48-7F9D9003F8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD5AF8DA-AE5C-47A4-8C48-7F9D9003F8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD5AF8DA-AE5C-47A4-8C48-7F9D9003F8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F8B673-007D-4AFA-8FDD-1B197CDC0E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F8B673-007D-4AFA-8FDD-1B197CDC0E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F8B673-007D-4AFA-8FDD-1B197CDC0E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F8B673-007D-4AFA-8FDD-1B197CDC0E90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
